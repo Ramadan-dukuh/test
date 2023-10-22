@@ -1,0 +1,180 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Comic sans ms';
+    color: darkred;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px ;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid darkred;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: crimson;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color: rgb(184, 39, 39);
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: darkred;
+    width: 100%;
+    line-height: 50px;
+}
+
+.ilustrasi {
+    width: 350px;
+    height: 350px;
+}
+
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 100px crimson;
+    z-index:-100;
+}
+
+.wiwit {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: darkred;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.guru-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-guru {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-guru img {
+      width: 80%;
+      border-radius: 50%;
+      border-style: solid;
+      border-color: darkred;
+}
+
+.kartu-guru p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: crimson;
+}
+
+#kontak {
+    background-color: darkred;
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section p {
+    color: white;
+}
